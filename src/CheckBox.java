@@ -13,7 +13,7 @@ public class CheckBox {
 		Cdriver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		Cdriver.manage().window().maximize();
 
-		// This The Procedure To Access The CheckBox
+		// This The Procedure To Access The CheckBox - New Update
 
 		List<WebElement> checkbox = Cdriver.findElements(By.xpath("//div[@id='checkbox-example']//fieldset//input"));
 		for (WebElement option : checkbox) {
