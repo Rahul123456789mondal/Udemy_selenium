@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parameter Suit">
+
+	<test name="Fruits">
+		<parameter name="mango" value="mango" />
+		<parameter name="orange" value="orange" />
+
+		<classes>
+			<class name="TestNGPackage.TestNGParams">
+			</class>
+		</classes>
+
+	</test>
+
+</suite> 

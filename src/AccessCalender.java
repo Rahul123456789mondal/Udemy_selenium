@@ -13,7 +13,7 @@ public class AccessCalender {
 		Cdriver.get("https://www.makemytrip.com/");
 		Cdriver.manage().window().maximize();
 		Cdriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-		// To Switch the Fream
+		// To Switch the Frame
 		WebElement fream = Cdriver.findElement(By.id("webklipper-publisher-widget-container-notification-frame"));
 		Cdriver.switchTo().frame(fream);
 
