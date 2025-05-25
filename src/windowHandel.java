@@ -9,9 +9,10 @@ public class windowHandel {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver cDriver = new ChromeDriver();
+        //cDriver.get("http://www.rahulshettyacademy.com/loginpagePractise/");
         cDriver.get("https://www.naukri.com/registration/createAccount?othersrcp=23531&wExp=N&utm_source=google&utm_medium=cpc&utm_campaign=Brand&gad_source=1&gclid=Cj0KCQjw0Oq2BhCCARIsAA5hubXIbTfwYSX7RbSFMxdXCE-AiQAOeePPYRGzKc5FWDVusax29s2CXi4aArk9EALw_wcB&gclsrc=aw.ds");
         cDriver.manage().window().maximize();
-
+        //cDriver.findElement(By.xpath("//a[@class='blinkingText']")).click();
         cDriver.findElement(By.xpath("//span[contains(text(),'Google')]")).click();
 
         // Get the current window handle (main window)

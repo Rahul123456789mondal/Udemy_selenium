@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+	
+	<listeners>
+		<listener class-name="TestNGPackage.TestNGListeners"/>
+	</listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/CODECLOUDS-ARKA/eclipse-workspace/Introduction">
+    
+    
+    
+        <classes>
+            <class name="TestNGPackage.TestNGDay1">
+                <methods>
+                    <include name="demo"/>
+                    <include name="demo2"/>
+                </methods>
+            </class>
+            <class name="TestNGPackage.TestNGDay2">
+                <methods>
+                    <include name="demo3"/>
+                    <include name="demo4"/>
+                </methods>
+            </class>
+            <class name="TestNGPackage.TestNGDay3">
+                <methods>
+                    <include name="demo5"/>
+                    <include name="demo6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
